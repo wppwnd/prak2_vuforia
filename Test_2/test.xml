@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="teebox.Front" size="0.200000 0.100000"/>
+        <ImageTarget name="teebox.Top" size="0.200000 0.100000"/>
+        <ImageTarget name="teebox.Bottom" size="0.200000 0.100000"/>
+        <ImageTarget name="teebox.Left" size="0.100000 0.100000"/>
+        <ImageTarget name="teebox.Right" size="0.100000 0.100000"/>
+        <ImageTarget name="teebox.Back" size="0.200000 0.100000"/>
+        <MultiTarget name="teebox">
+            <Part name="teebox.Left" translation="-0.10000000149011612 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="teebox.Right" translation="0.10000000149011612 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="teebox.Front" translation="0 0 0.05000000074505806" rotation="AD: 1 0 0 0"/>
+            <Part name="teebox.Back" translation="0 0 -0.05000000074505806" rotation="AD: 0 1 0 180"/>
+            <Part name="teebox.Top" translation="0 0.05000000074505806 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="teebox.Bottom" translation="0 -0.05000000074505806 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
